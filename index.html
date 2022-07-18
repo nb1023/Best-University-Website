@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- little bit of javascript is used here i.e onclick ="hidemenu()" -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <!-- course -->
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>There are 30+ programs and 50+ leading technology specializations in Engineering, Management, Media, Law, and Liberal Arts. </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Engineering</h3>
+                <p>Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings. </p>
+            </div>
+       
+            <div class="course-col">
+                <h3>Liberal Arts</h3>
+                <p>Liberal arts education can refer to studies in a liberal arts degree program or to a university education more generally. Such a course of study contrasts with those that are principally vocational.</p>
+            </div>
+        
+        <div class="course-col">
+            <h3>Media</h3>
+            <p>Media education is the process of teaching students to interpret, evaluate, and think critically about media systems and the content they produce.  </p>
+            </div>
+        </div>
+    </section>
+    <!-- campus -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>There are various branches of university. </p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The University has a sprawling eco-friendly vast campus with huge open space. </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>The University Library acquires books and reading resources on the recommendations of the Teachers-in-charge of the various departments of the College.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>Our College has an excellent play ground for students with indoor and out door sports facilities. Our college is having very big playground for various outdoor games. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Juice bars, composting and entirely plant-based dining halls are available.To improve sustainability and accommodate dietary needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Why should you choose this university?</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>The canteen of the college also offers good food at reasonable prices and the college is also equipped basic gym facilities and medical facilities.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Some of the top recruiting companies are Deloitte, CBRE, Amazon, Khimji Ramdas, Asian Paints, ITC, Nestle, HDFC Bank, ICICI Bank, etc.</p>
+                    <h3>David Buyer</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="cta">
+        <h1>Enroll for our various online courses<br> Anywhere from the World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>QUICK LINKS : INTERNATIONAL | SCHOOLS | BLOGS | SOCIAL HUB | INFRASTRUCTURE | TRANSPORT FACILITIES</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            
+        </div>
+
+    </section>
+
+    <!-- javascript is used for toggle menu in small devices -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks"); 
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
